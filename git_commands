@@ -1,8 +1,13 @@
 git init
 git remote add origin https://github.com/SystemCall213/nawdadjw-.git
+
+
+
 git add .
 git commit -m "first commit"
 git branch main
 git push -u origin main
+
+
 
 git checkout main
