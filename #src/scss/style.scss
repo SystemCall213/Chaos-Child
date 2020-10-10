@@ -1,0 +1,86 @@
+@import 'fonts';
+
+/*Обнуление*/
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  *,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  :focus,:active{outline: none;}
+  a:focus,a:active{outline: none;}
+  
+  nav,footer,header,aside{display: block;}
+  
+  html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  input,button,textarea{font-family:inherit;}
+  
+  input::-ms-clear{display: none;}
+  button{cursor: pointer;}
+  button::-moz-focus-inner {padding:0;border:0;}
+  a, a:visited{text-decoration: none;}
+  a:hover{text-decoration: none;}
+  ul li{list-style: none;}
+  img{vertical-align: top;}
+  
+  h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+  /*--------------------*/
+  
+  .bigred{
+    font-size: 20px;
+    color: red;
+  }
+  
+
+body {
+  background-color: #eef;
+}
+
+.main {
+  padding: 50px 550px;
+
+  .title {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 30px;
+  }
+  .subtitle {
+    display: block;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .date {
+    display: block;
+    font-size: 24px;
+    padding-left: 100px;
+    padding-bottom: 40px;
+    font-weight: 700;
+  }
+  .text {
+    display: block;
+    font-size: 20px;
+  }
+}
+
+p {
+  padding: 10px 0px;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+}
