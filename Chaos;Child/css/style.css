@@ -155,3 +155,8 @@ p {
   line-height: 25px;
   letter-spacing: 0.5px;
 }
+
+p span {
+  font-size: 22px;
+  padding-left: 220px;
+}
