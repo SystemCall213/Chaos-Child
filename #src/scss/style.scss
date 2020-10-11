@@ -79,8 +79,13 @@ body {
   }
 }
 
+
 p {
   padding: 10px 0px;
   line-height: 25px;
   letter-spacing: 0.5px;
+  span {
+    font-size: 22px;
+    padding-left: 220px;
+  }
 }
